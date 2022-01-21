@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400;500;700;800;900&display=swap');
+
+body{
+    font-family:"Roboto", sans-serif;
+    line-height: 1.8;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+
+}
+*{
+    padding: 0px;
+    margin:0 px;
+}
+
+.myMargin{
+     margin: 1%;
+     padding: 0.5%;
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+ #bgcolor{
+   background-color:lightgreen;
+ }
+ .carousel .carousel-item {
+  max-height:550px;
+  padding: 10px;
+}
+
+.carousel-item img {
+  object-fit:cover;
+  max-height:550px;
+}
+#psize{
+  font-size: large;
+}
